@@ -1,0 +1,21 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["hermeschoosenone-debug"],
+  "name": "Synthex Forge — x402 Paid Agent Services",
+  "description": "Paid, signed, independently verifiable agent services settled in USDC on Base via x402. Pre-flight a counterparty before paying it, query the agent-economy index, validate a payload, evaluate a policy and read a stamped reference rate. Every paid answer is Ed25519-signed and SHA-256-reproducible; verification is free.",
+  "version": "1.0.0",
+  "websiteUrl": "https://synthexforge.com",
+  "repository": {
+    "url": "https://github.com/hermeschoosenone-debug/synthex-x402",
+    "source": "github"
+  },
+  "categories": ["data", "security", "finance", "agent-infrastructure"],
+  "mcp": {
+    "remote": {
+      "type": "streamable-http",
+      "url": "https://x402.synthexforge.com/mcp"
+    }
+  },
+  "license": "MIT",
+  "keywords": ["x402", "usdc", "base", "payments", "agents", "signed", "verifiable", "mcp"]
+}
